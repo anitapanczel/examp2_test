@@ -43,3 +43,84 @@ select {
     -webkit-appearance: none !important;
     border-radius: 0;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #138073;
+    background-color: #E6E6E6;
+}
+
+form {
+    position: absolute;
+    width: 60vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-input-placeholder {
+    color: #138073;
+    text-indent: 20px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #138073;
+    text-indent: 20px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #138073;
+    text-indent: 20px;
+}
+
+:-ms-input-placeholder {
+    color: #138073;
+    text-indent: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+input {
+    height: 64px;
+    width: 60%;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    margin: 0;
+}
+
+button {
+    background-color: #39B69F;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    margin: 20px;
+    height: 64px;
+    width: 20vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    form {
+        width: calc(100% - 60px);
+    }
+    input {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
