@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -18,8 +18,11 @@
         <h1>Jelentkezés</h1>
         <div><input type="text" placeholder="Név"></div>
         <div><input type="email" placeholder="Email cím"></div>
-        <div><input type="checkbox"> Elfogadom és elolvastam az <a href="">Adatkezelési Tájékoztatót</a>.</div>
-        <div><button>Elküld</button></div>
+        <div class="flex">
+            <div class="checkbox"><input type="checkbox"></div>
+            <div class="feltetelek"> Elolvastam és elfogadom az <a href="">Adatkezelési Tájékoztatót</a>.</div>
+        </div>
+        <div class="button"><button>Elküld</button></div>
     </form>
 
 
