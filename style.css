@@ -97,6 +97,10 @@ input {
     margin: 20px;
 }
 
+a {
+    text-decoration: underline;
+}
+
 input[type="checkbox"] {
     height: 20px;
     width: 20px;
@@ -117,7 +121,7 @@ button {
 
 @media (max-width: 800px) {
     form {
-        width: calc(100% - 60px);
+        max-width: calc(100% - 60px);
     }
     input {
         margin-right: 20px;
