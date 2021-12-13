@@ -47,7 +47,7 @@ select {
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #138073;
     background-color: #E6E6E6;
 }
@@ -84,7 +84,7 @@ form {
 
 h1 {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
